@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.index-body, .registration-body {
+    background-color:rgb(16 15 15 / 95%);
+}
+
+
+#navigation-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    padding-left: 110px;
+    padding-top: 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 500px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 70px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(16 15 15 / 95%);
+    color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    margin-right: 140px;
+    cursor: pointer;
+}
+
+.ninja-logo {
+    padding-left: 90px;
+    width: 700px;
+    margin: 10px;
+    margin-top: -300px;
+}
+
+.h2r {
+    width: 857px;
+    height: 736px;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+h2 {
+    color: rgba(240, 255, 255, 0.575);
+    font-size: 50px;
+}
+
+.main-information {
+    color: rgba(240, 255, 255, 0.575);
+    width: 550px;
+    height: 300px;
+}
+
+.info{
+    padding-left: 110px;
+    position: absolute;
+    top: 450px;
+}
+
+.price {
+    color: rgb(29, 218, 29);
+    margin-left: 455px;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.grey-box {
+    max-width: 100%;
+    height: 300px;
+    color: rgb(16 15 15 / 95%);
+    box-shadow: 0 -1px 20px rgb(93, 88, 88),
+                0 1px 20px rgb(34, 33, 33);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.two-motor-flags {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 80px;
+    height: 90px;
+}
+
+.container-box {
+    display: flex;
+    justify-content: center; 
+    height: 100px;       
+}
+
+.photo-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.photo-container::before,
+.photo-container::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: rgb(29, 218, 29); 
+    width: 570px;           
+}
+
+.photo-container::before {
+    left: -580px; 
+}
+
+.photo-container::after {
+    right: -580px; 
+}
+
+.photo {
+    display: block;
+    margin: 0 10px;
+    width: 80px;   
+    height: 90px;   
+}
+
+.design {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.motorcycle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.item {
+    padding-top: 120px;
+    color: rgba(240, 255, 255, 0.575);
+}
+
+.special-item {
+    margin-top: 110px;
+    text-align: left;
+    color: rgb(29, 218, 29);
+    width: 250px;
+    font-size: 20px;
+}
+
+.lined-text {
+    position: relative;
+    padding-left: 110px; 
+    display: inline-block;
+}
+
+.lined-text::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: rgb(29, 218, 29); 
+    width: 1023px;  
+    margin-top: 28px;
+    margin-left: 240px;
+}
+
+.left-lined-text {
+    border-left: 1px solid rgb(29, 218, 29);
+    padding-left: 10px;
+    color: rgba(240, 255, 255, 0.575);
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.title {
+    color: rgba(240, 255, 255, 0.575);
+    padding-left: 108px;
+    padding-top: 9px;
+    font-size: 14px;
+}
+
+.power-info {
+    width: 640px;
+    height: 300px;
+    padding-left: 56px;
+    text-align: left;
+    color: rgba(240, 255, 255, 0.575);
+    margin-right: 200px;
+    font-size: 18px;
+}
+
+.power-img {
+    width: 400px;
+    height: auto;
+    margin-top: -70px;
+}
+
+.flex {
+    display: flex;
+    align-items: center; 
+    margin-left: 50px;
+    height: 350px;
+}
+
+.performance-img {
+    width: 400px;
+    height: auto;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
+.right-title {
+    color: rgba(240, 255, 255, 0.575);
+    font-size: 14px;
+    padding-top: 9px;
+    padding-left: 250px;
+}
+
+.performance-info {
+    width: 800px;
+    text-align: left;
+    color: rgba(240, 255, 255, 0.575);
+    margin-right: 250px;
+    font-size: 18px;
+    margin-top: 20px;
+    padding-left: 250px;
+}
+
+.right-lined-text {
+    border-left: 1px solid rgb(29, 218, 29);
+    color: rgba(240, 255, 255, 0.575);
+    margin-left: 250px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.breaking-img {
+    width: 250px;
+    height: auto;
+    margin-left: 60px;
+    padding-top: 20px;
+}
+
+.galey-lined-text {
+    position: relative;
+    padding-left: 110px; 
+    display: inline-block;
+}
+
+.galey-lined-text::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: rgb(29, 218, 29); 
+    width: 1120px;  
+    margin-top: 28px;
+    margin-left: 145px;
+}
+
+.photo1{
+    width: 580px;
+    height: 480px;
+    padding-top: 40px;
+}
+
+.photo2 {
+    width: 590px;
+    height: 480px;
+    padding-top: 40px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-grey-box {
+    max-width: 100%;
+    height: 500px;
+    color: rgb(16 15 15 / 95%);
+    box-shadow: 0 -1px 20px rgb(93, 88, 88),
+                0 1px 20px rgb(34, 33, 33);
+    margin-top: 100px;
+}
+
+.header1 {
+    color: white;
+    padding-left: 660px;
+    padding-top: 30px;
+}
+
+.flex-space-evenly {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.footer-info{
+    color: rgba(240, 255, 255, 0.575);
+    text-align: center;
+    font-size: 18px;
+    width: 1250px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.social-media{
+    margin-top: 100px;
+}
+
+.icon-image{
+    margin: 10px;
+}
+
+.footer-p{
+    border-bottom: 3px solid rgb(29, 218, 29);
+    width: 180px;
+    font-size: 20px;
+    color: rgba(240, 255, 255, 0.575);
+    margin-top: 110px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.registration-h1{
+    height: 70px;
+    width: 900px;
+    text-align: center; 
+    color: white;
+    margin-left: 260px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    color: black
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color:  rgb(240, 255, 255);
+}
+
+.resgistration-p{
+    margin-left: 438px;
+    padding: 10px;
+    color: rgba(240, 255, 255, 0.721);
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox-flex {
+    display: flex;
+    margin-left: 448px;
+    margin-top: 10px;
+}
+
+.checkbox-p, .checkbox {
+    margin: 5px;
+    color: white;
+}
+
+.submit-button {
+    width: 600px;
+    height: 50px;
+    color: white;
+    background-color: rgb(29, 218, 29);
+    border:rgb(29, 218, 29);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 448px;
+}
+
+a{
+    color: rgb(29, 218, 29);
+}
